@@ -27,4 +27,16 @@ class constructors {
         return t;
     }
 
+    public static JPasswordField inputPass(String value, int length){
+        JPasswordField p = new JPasswordField(value, length);
+
+        return p;
+    }
+
+    public static JButton button (String value){
+        JButton b = new JButton(value);
+
+        return b;
+    }
+
         }
